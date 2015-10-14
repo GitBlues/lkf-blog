@@ -1,0 +1,76 @@
+.spinner {
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.spinner .spinner-text {
+    border: 0px;
+    font-size: 12px;
+    margin: 0;
+    padding: 0 2px;
+    vertical-align: baseline;
+}
+
+.spinner-arrow {
+    background-color: #F2F2F2;
+    display: inline-block;
+    filter: alpha(opacity=100);
+    margin: 0;
+    opacity: 1.0;
+    overflow: hidden;
+    padding: 0;
+    vertical-align: top;
+    width: 18px;
+}
+
+.spinner-arrow-up,
+.spinner-arrow-down {
+    color: #444;
+    display: block;
+    filter: alpha(opacity=60);
+    font-size: 1px;
+    height: 10px;
+    height: 10px;
+    opacity: 0.6;
+    outline-style: none;
+    width: 18px;
+    width: 100%;
+}
+
+.spinner-arrow-hover {
+    background-color: #e6e6e6;
+    filter: alpha(opacity=100);
+    opacity: 1.0;
+}
+
+.spinner-arrow-up:hover,
+.spinner-arrow-down:hover {
+    background-color: #e6e6e6;
+    filter: alpha(opacity=100);
+    opacity: 1.0;
+}
+
+.textbox-icon-disabled .spinner-arrow-up:hover,
+.textbox-icon-disabled .spinner-arrow-down:hover {
+    background-color: #F2F2F2;
+    cursor: default;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+
+.spinner .textbox-icon-disabled {
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+
+.spinner-arrow-up { background: url('images/spinner_arrows.png') no-repeat 1px center; }
+
+.spinner-arrow-down { background: url('images/spinner_arrows.png') no-repeat -15px center; }
+
+.spinner { border-color: #D4D4D4; }

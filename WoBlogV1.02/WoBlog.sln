@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoBlog.Web", "WoBlog.Web\WoBlog.Web.csproj", "{DBA264E7-0AD0-430B-B131-BCA7DCD2FF7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoBlog.Utility", "WoBlog.Utility\WoBlog.Utility.csproj", "{93D90F35-12DE-4B9A-8730-E44C7CCCF8B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoBlog.Entities", "WoBlog.Entities\WoBlog.Entities.csproj", "{75B048DD-3272-4DC0-914B-7B9B604435E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoBlog.Data", "WoBlog.Data\WoBlog.Data.csproj", "{208BE6BB-98B7-4D93-923A-0FEE35B695B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoBlog.Domain", "WoBlog.Domain\WoBlog.Domain.csproj", "{CC4B3001-C4AE-4553-B893-A2D039B3EEA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoBlog.Core", "WoBlog.Core\WoBlog.Core.csproj", "{0F0A7BE2-C88D-41B7-AD8F-50FA2A7B0095}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBA264E7-0AD0-430B-B131-BCA7DCD2FF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA264E7-0AD0-430B-B131-BCA7DCD2FF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA264E7-0AD0-430B-B131-BCA7DCD2FF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA264E7-0AD0-430B-B131-BCA7DCD2FF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D90F35-12DE-4B9A-8730-E44C7CCCF8B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D90F35-12DE-4B9A-8730-E44C7CCCF8B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D90F35-12DE-4B9A-8730-E44C7CCCF8B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D90F35-12DE-4B9A-8730-E44C7CCCF8B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B048DD-3272-4DC0-914B-7B9B604435E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B048DD-3272-4DC0-914B-7B9B604435E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B048DD-3272-4DC0-914B-7B9B604435E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B048DD-3272-4DC0-914B-7B9B604435E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{208BE6BB-98B7-4D93-923A-0FEE35B695B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208BE6BB-98B7-4D93-923A-0FEE35B695B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208BE6BB-98B7-4D93-923A-0FEE35B695B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208BE6BB-98B7-4D93-923A-0FEE35B695B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4B3001-C4AE-4553-B893-A2D039B3EEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4B3001-C4AE-4553-B893-A2D039B3EEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4B3001-C4AE-4553-B893-A2D039B3EEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4B3001-C4AE-4553-B893-A2D039B3EEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0A7BE2-C88D-41B7-AD8F-50FA2A7B0095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0A7BE2-C88D-41B7-AD8F-50FA2A7B0095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0A7BE2-C88D-41B7-AD8F-50FA2A7B0095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0A7BE2-C88D-41B7-AD8F-50FA2A7B0095}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
